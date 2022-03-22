@@ -10,7 +10,15 @@ import {
 
 function App() {
   return (
+    <Router>
     <Header />
+    <div>
+        <Routes>
+          <Route path="/" element={<Beranda />} />
+          <Route path="/Profil" element={<Profil />} />
+        </Routes>
+        </div>
+    </Router>
   );
 }
 
