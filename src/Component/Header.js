@@ -4,9 +4,6 @@ import Foto from '../Images/LogoHeader.png';
 import "./folder.css";
 
 function Header() {
-  const [clik, setClik] = useState(false);
-
-  const handleClick = () => setClick(!click);
   return (
     <>
     <div className="nav-atas">

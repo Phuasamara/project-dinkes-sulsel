@@ -12,7 +12,7 @@
 .nav-atas{
     display: flex;
     justify-content: center;
-    background-color: #1F9E84;
+    background-color: #009042;
     color: white;
     height: 40px;
     align-items: center;
@@ -36,7 +36,7 @@
 .judul{
     margin: 0px;
     margin-left: 10px;
-    color: #1F9E84;
+    color: #009042;
 }
 .nav-logo{
     align-items: center;
@@ -63,7 +63,7 @@
 
 .nav-item{
     line-height: 40px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .nav-item:after{
@@ -77,10 +77,10 @@
 
 .nav-item:hover:after{
     width: 100%;
-    background-color: #1F9E84;
+    background-color: #009042;
 }
 
 .active{
-    color: #1F9E84;
+    color: #009042;
     font-weight: bold;
 }
