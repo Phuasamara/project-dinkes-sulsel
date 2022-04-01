@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 13.5px;
     position: sticky;
     top: 0;
     z-index: 20;
@@ -12,10 +12,11 @@
 .nav-atas{
     display: flex;
     justify-content: center;
-    background-color: #009042;
+    background-color: #1F9E84;
     color: white;
-    height: 40px;
+    height: 30px;
     align-items: center;
+    font-size: 15px;
 }
 .nav-container{
     display: flex;
@@ -36,7 +37,15 @@
 .judul{
     margin: 0px;
     margin-left: 10px;
-    color: #009042;
+    color: #1F9E84;
+}
+.judul-atas{
+    font-size: 22px;
+    font-weight: bold;
+}
+.judul-bawah{
+    font-size: 12px;
+    font-weight: bold;
 }
 .nav-logo{
     align-items: center;
@@ -56,9 +65,6 @@
 .nav-links{
     color:black;
     text-decoration: none;
-    padding: 0,5rem 1rem;
-    height: 100%;
-    border-bottom: 3px solid transparent;
 }
 
 .nav-item{
@@ -77,10 +83,76 @@
 
 .nav-item:hover:after{
     width: 100%;
-    background-color: #009042;
+    background-color: #1F9E84;
 }
-
 .active{
-    color: #009042;
+    color: #1F9E84;
     font-weight: bold;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+.color{
+    background-color: #1F9E84;
+}
+.footer{
+    background-color: #1F9E84;
+    font-size: 13.5px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+    z-index: 20;
+}
+.footer-judul{
+    margin: 0px;
+    margin-left: 10px;
+    color: #F2F8F2;
+}
+.jarak-logo{
+    margin-bottom: 20px;
+}
+.component{
+    display: flex;
+    align-items: center;
+}
+.font-component{
+    color: #F2F8F2;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.footer-button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.footer-judulcomponent{
+    font-size: 17px;
+    color: #F2F8F2;
+    font-weight: bold;
+}
+.jarak-statistik{
+    margin-bottom: 10px;
+}
+.footer-statistik{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.statistik-font{
+    color: #F2F8F2;
+    align-items: center;
+    margin-left: 5px;
+}
+.sosialmedia-judul{
+    font-size: 17px;
+    color: #F2F8F2;
+    font-weight: bold;
+    text-align: right;
+}
+.footer-sosialmedia{
+    display: flex;
+}
+.sosialmedia-gambar{
+    margin-left: 10px;
 }

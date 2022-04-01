@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './Component/Header';
 import Beranda from './Page/Beranda';
+import Footer from './Component/Footer';
 import Profil from './Page/Profil';
+import './responsive.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +18,7 @@ function App() {
           <Route path="/" element={<Beranda />} />
           <Route path="/Profil" element={<Profil />} />
         </Routes>
+      <Footer />
     </Router>
   );
 }
