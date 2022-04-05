@@ -1,0 +1,60 @@
+.jarak-teks{
+    background-color: #F2F8F2;
+    padding: 0px 50px 0px 50px;
+}
+.div-profil{
+    height: 100px;
+    background-color: #1F9E84;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.judul-profil{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+}
+.grid-awal{
+    background-color: #F2F8F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.awal-sambutan{
+    color: #F5B400;
+    font-size: 35px;
+    font-weight: bold;
+}
+.isi-sambutan{
+    text-align: justify;
+}
+.ukuran-isi{
+    font-size: 20px;
+}
+.isi2-sambutan{
+    font-size: 25px;
+    font-weight: bold;
+}
+.isi3-sambutan{
+    font-size: 15px;
+}
+.foto-sambutan{
+    display: flex;
+    justify-content: center;
+    height: 460px;
+    width: 333px;
+}
+.judul-visi{
+    color: #F5B400;
+    font-size: 25px;
+    font-weight: bold;
+}
+.visi-misi{
+    display: flex;
+    justify-content: center;
+}
+.ukuran-judul{
+    height: 50px;
+}

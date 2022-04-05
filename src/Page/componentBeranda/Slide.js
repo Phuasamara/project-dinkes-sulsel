@@ -10,10 +10,10 @@ function Slide(){
     return(
         <Flickity data-flickity={{ "pageDots": false }}>
             <Grid container>
-            <Grid item xs={6} sm={6} sx={{zIndex: 0}}>
+            <Grid item xs={12} sm={6} sx={{zIndex: 0}}>
                 <img src={Gambar} alt="foto" className="gambar-beranda" />
             </Grid>
-            <Grid item xs={6} sm={6} sx={{zIndex: 1, backgroundColor: '#F2F8F2'}} className="content">
+            <Grid item xs={12} sm={6} sx={{zIndex: 1, backgroundColor: '#F2F8F2'}} className="content">
                 <div className="startDiv">
                 <p className='style-atas jarak'>BERITA TERBARU</p>
                 <p className='style-tengah tebal jarak'>Penjelasan <br></br>

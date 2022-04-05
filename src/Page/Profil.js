@@ -1,8 +1,9 @@
 import React from 'react';
+import IsiVideo from './componentProfile/IsiVideo';
 
 function Profil(){
     return(
-        <p>HALO INI Profil</p>
+        <IsiVideo />
     )
 }
 export default Profil;
