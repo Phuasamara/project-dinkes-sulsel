@@ -5,6 +5,7 @@ import Popover from '@mui/material/Popover';
 import Box from '@mui/material/Box';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
+import Button from '@mui/material/Button';
 import "./folder.css";
 
 function Header() {
@@ -61,7 +62,7 @@ function Header() {
           >
           <div style={{height:"26px", width:"100px"}}>
             <NavLink exact to="/Profil" className="nav-links">
-              DROPDOWN
+              <Button variant="text" sx={{color:'black'}}>Dropdown</Button>
             </NavLink>
           </div>
           </Popover>

@@ -1,9 +1,9 @@
 import React from 'react';
-import IsiVideo from './componentProfile/IsiVideo';
+import StrukturOrganisasi from './componentProfile/StrukturOrganisasi';
 
 function Profil(){
     return(
-        <IsiVideo />
+        <StrukturOrganisasi />
     )
 }
 export default Profil;

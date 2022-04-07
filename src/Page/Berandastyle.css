@@ -344,3 +344,27 @@
   text-align: center;
   width: 500px;
 }
+.div-pengaduan{
+  height: 500px;
+  background-color: #70CB70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pengaduan-font{
+  color: #F2F8F2;
+  font-size: 65px;
+  font-weight: bold;
+  margin: 20px;
+}
+.pengaduan-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pengaduan-button1{
+  padding-right: 20px;
+}
+.pengaduan-button2{
+  padding-left: 20px;
+}

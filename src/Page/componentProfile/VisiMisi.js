@@ -8,13 +8,13 @@ function VisiMisi(){
             <p className='judul-profil'>VISI DAN MISI</p>
         </div>
         <div>
-            <div className='visi-misi ukuran-judul'>
+            <div className='visi-misi ukuran-judul margin-atas'>
                 <p className='judul-visi'>
                 VISI
                 </p>
             </div>
             <div className='visi-misi'>
-                <p>
+                <p className='isi-visi'>
                 “Sulawesi Selatan yang Inovatif, Produktif, Kompetitif, Inklusif dan Berkarakter”
                 </p>
             </div>
@@ -23,8 +23,8 @@ function VisiMisi(){
                 MISI
                 </p>
             </div>
-            <div className='visi-misi'>
-                <p>
+            <div className='visi-misi margin-bawah'>
+                <p className='isi-visi'>
                 1. Pemerintahan yang berorientasi melayani, inovatif, dan berkarakter. <br></br>
                 2. Peningkatan infrastruktur yang berkualitas dan aksesibel. <br></br>
                 3. Pembangunan pusat-pusat pertumbuhan ekonomi baru. <br></br>

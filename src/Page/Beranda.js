@@ -7,6 +7,7 @@ import Galery from './componentBeranda/Galery';
 import InformasiPublik from './componentBeranda/InformasiPublik';
 import Mapping from './componentBeranda/Mapping';
 import Video from './componentBeranda/Video';
+import Pengaduan from './componentBeranda/Pengaduan';
 
 function Beranda(){
     return(
@@ -17,6 +18,7 @@ function Beranda(){
         <Video />
         <Galery className='jarak-padding'/>
         <InformasiPublik className='jarak-padding'/>
+        <Pengaduan />
         </Fragment>
         );
     }

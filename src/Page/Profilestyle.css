@@ -48,13 +48,36 @@
 }
 .judul-visi{
     color: #F5B400;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    margin: 0;
+    padding-top: 10px;
 }
 .visi-misi{
     display: flex;
     justify-content: center;
 }
 .ukuran-judul{
-    height: 50px;
+    height: 40px;
+}
+.isi-visi{
+    font-size: 20px;
+}
+.margin-atas{
+    margin-top: 40px;
+}
+.margin-bawah{
+    margin-bottom: 40px;
+}
+.struktur-div{
+    width: 1349px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.struktur-foto{
+    width: 1300px;
+    height: 640px;
 }
