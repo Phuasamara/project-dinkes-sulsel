@@ -1,9 +1,9 @@
 import React from 'react';
-import StrukturOrganisasi from './componentProfile/StrukturOrganisasi';
+import PejabatdanStaff from './componentProfile/PejabatdanStaff';
 
 function Profil(){
     return(
-        <StrukturOrganisasi />
+        <PejabatdanStaff />
     )
 }
 export default Profil;

@@ -3,6 +3,12 @@ import Header from './Component/Header';
 import Beranda from './Page/Beranda';
 import Footer from './Component/Footer';
 import Profil from './Page/Profil';
+import Sambutan from './Page/componentProfile/Sambutan';
+import StrukturOrganisasi from './Page/componentProfile/StrukturOrganisasi';
+import VisiMisi from './Page/componentProfile/VisiMisi';
+import PejabatdanStaff from './Page/componentProfile/PejabatdanStaff';
+import Gallery from './Page/componentGalerydanVideo/Gallery';
+import GalleryVideo from './Page/componentGalerydanVideo/GalleryVideo';
 import './responsive.css';
 import {
   BrowserRouter as Router,
@@ -16,7 +22,12 @@ function App() {
     <Header />
         <Routes>
           <Route path="/" element={<Beranda />} />
-          <Route path="/Profil" element={<Profil />} />
+          <Route path="/Sambutan" element={<Sambutan />} />
+          <Route path="/StrukturOrganisasi" element={<StrukturOrganisasi />} />
+          <Route path="/VisiMisi" element={<VisiMisi />} />
+          <Route path="/PejabatdanStaff" element={<PejabatdanStaff />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/GalleryVideo" element={<GalleryVideo />} />
         </Routes>
       <Footer />
     </Router>
