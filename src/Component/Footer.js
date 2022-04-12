@@ -11,6 +11,7 @@ import Facebook from '../Images/face.png';
 import Instagram from '../Images/insta2.png';
 import Youtube from '../Images/yt2.png';
 import Tiktok from '../Images/tiktok.png';
+import Container from "@mui/material/Container";
 import "./folder.css";
 
 function Footer(){

@@ -8,6 +8,7 @@ import InformasiPublik from './componentBeranda/InformasiPublik';
 import Mapping from './componentBeranda/Mapping';
 import Video from './componentBeranda/Video';
 import Pengaduan from './componentBeranda/Pengaduan';
+import Container from "@mui/material/Container";
 
 function Beranda(){
     return(

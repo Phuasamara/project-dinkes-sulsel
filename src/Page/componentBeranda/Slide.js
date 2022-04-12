@@ -15,6 +15,7 @@ function Slide(){
             </Grid>
             <Grid item xs={12} sm={6} sx={{zIndex: 1, backgroundColor: '#F2F8F2'}} className="content">
                 <div className="startDiv">
+                <p className='style-judulbaru jarak'>Terakhir Diperbaharui 23/3/3</p>
                 <p className='style-atas jarak'>BERITA TERBARU</p>
                 <p className='style-tengah tebal jarak'>Penjelasan <br></br>
                     Kenapa varian Omicron <br></br>
