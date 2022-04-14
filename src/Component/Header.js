@@ -182,8 +182,8 @@ function Header() {
             }}
           >
           <div>
-            <NavLink to="/Sambutan" className="nav-links">
-              <Button variant="text" sx={{color:'black'}}>Regulasi</Button>
+            <NavLink to="/Peraturanpemerintah" className="nav-links">
+              <Button variant="text" sx={{color:'black'}}>Peraturan Pemerintah</Button>
             </NavLink>
           </div>
           </Popover>

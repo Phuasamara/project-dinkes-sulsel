@@ -9,6 +9,7 @@ import VisiMisi from './Page/componentProfile/VisiMisi';
 import PejabatdanStaff from './Page/componentProfile/PejabatdanStaff';
 import Gallery from './Page/componentGalerydanVideo/Gallery';
 import GalleryVideo from './Page/componentGalerydanVideo/GalleryVideo';
+import Peraturanpemerintah from './Page/componentRegulasi/Peraturanpemerintah';
 import './responsive.css';
 import {
   BrowserRouter as Router,
@@ -28,6 +29,7 @@ function App() {
           <Route path="/PejabatdanStaff" element={<PejabatdanStaff />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/GalleryVideo" element={<GalleryVideo />} />
+          <Route path="/Peraturanpemerintah" element={<Peraturanpemerintah />} />
         </Routes>
       <Footer />
     </Router>
