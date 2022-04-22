@@ -10,6 +10,8 @@ import PejabatdanStaff from './Page/componentProfile/PejabatdanStaff';
 import Gallery from './Page/componentGalerydanVideo/Gallery';
 import GalleryVideo from './Page/componentGalerydanVideo/GalleryVideo';
 import Peraturanpemerintah from './Page/componentRegulasi/Peraturanpemerintah';
+import Peraturan2 from './Page/componentRegulasi/Peraturan2';
+import Survei from './Page/Survei';
 import './responsive.css';
 import {
   BrowserRouter as Router,
@@ -30,6 +32,8 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/GalleryVideo" element={<GalleryVideo />} />
           <Route path="/Peraturanpemerintah" element={<Peraturanpemerintah />} />
+          <Route path="/Peraturan2" element={<Peraturan2 />} />
+          <Route path="/Survei" element={<Survei />} />
         </Routes>
       <Footer />
     </Router>
