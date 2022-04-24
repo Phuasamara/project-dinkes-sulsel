@@ -85,3 +85,15 @@
     }
 
 }
+
+@media only screen and (min-width: 768px){
+    .survei-form{
+        display: flex;
+    }
+    .survei-formLeft{
+        padding-right: 10px;
+    }
+    .survei-formRight{
+        padding-left: 10px;
+    }
+}
