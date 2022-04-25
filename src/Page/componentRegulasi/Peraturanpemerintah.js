@@ -152,21 +152,9 @@ function createData(No, Tentang, Lihat, Download) {
 }
 
 const rows = [
-  createData(1, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(2, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(3, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(4, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(5, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(6, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(7, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(8, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(9, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(10, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(11, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(12, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(13, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(14, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
-  createData(15, 'Permendagri No.100 Tentang SPM', <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton>, <IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>),
+  createData(1, 'Permendagri No.100 Tentang SPM'),
+  createData(2, 'Permendagri No.100 Tentang SPM'),
+  createData(3, 'Permendagri No.100 Tentang SPM'),
 ].sort((a, b) => (a.calories < b.calories ? -1 : 1));
 
 export default function Peraturan2() {
@@ -208,8 +196,7 @@ export default function Peraturan2() {
           <TableRow>
             <StyledTableCell>No</StyledTableCell>
             <StyledTableCell align="center">Tentang</StyledTableCell>
-            <StyledTableCell align="right">Lihat</StyledTableCell>
-            <StyledTableCell align="center">Download</StyledTableCell>
+            <StyledTableCell align="center">Aksi</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -224,11 +211,8 @@ export default function Peraturan2() {
               <StyledTableCell align="center">
                 {row.Tentang}
               </StyledTableCell>
-              <StyledTableCell style={{ width: 160 }} align="right">
-                {row.Lihat}
-              </StyledTableCell>
               <StyledTableCell style={{ width: 160 }} align="center">
-                {row.Download}
+                <IconButton sx={{color:'#F5B400'}}><RemoveRedEyeIcon/></IconButton><IconButton sx={{color:'#1F9E84'}}><DownloadIcon /></IconButton>
               </StyledTableCell>
             </StyledTableRow>
           ))}
