@@ -129,10 +129,10 @@ function Survei(){
             <Grid container sx={{paddingLeft:5, paddingBottom: 5, backgrounColor: 'white'}}>
             <div style={{boxShadow: "5px 5px 5px 5px #9E9E9E", width: '100%', padding: 10}}>
                 <div className="survei-form">
-                <Grid item xs={12} sm={6} sx={{zIndex: 0, marginRight: 10}}>
+                <Grid item xs={12} sm={7} sx={{zIndex: 0, marginRight: 10}}>
                     <p>1. Menurut anda apakah kejelasan dan kepastian petugas yang melayani di Dinas Kesehatan benar-benar sudah sesuai ?</p>
                 </Grid>
-                <Grid item xs={12} sm={6} sx={{zIndex: 0,}}>
+                <Grid item xs={12} sm={5} sx={{zIndex: 0,}}>
                     <p>
                     <FormControl>
                     <RadioGroup
@@ -150,19 +150,19 @@ function Survei(){
                     <FormControlLabel
                         value="baik"
                         control={<Radio />}
-                        label="Baik"
+                        label="Sudah Baik"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="cukupbaik"
                         control={<Radio />}
-                        label="Cukup Baik"
+                        label="Cukup Baikk"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="tidakbaik"
                         control={<Radio />}
-                        label="Buruk"
+                        label="Tidak Baik"
                         labelPlacement="top"
                     />
                     </RadioGroup>
@@ -174,10 +174,10 @@ function Survei(){
                     <Divider />
                 </Grid>
                 <div className="survei-form">
-                <Grid item xs={12} sm={6} sx={{zIndex: 0, marginRight: 10}}>
+                <Grid item xs={12} sm={7} sx={{zIndex: 0, marginRight: 10}}>
                     <p>2. Apakah kesesuaian persyaratan pelayanan dengan jenis pelayanannya yang anda rasakan sudah benar-benar sesuai?</p>
                 </Grid>
-                <Grid item xs={12} sm={6} sx={{zIndex: 0,}}>
+                <Grid item xs={12} sm={5} sx={{zIndex: 0,}}>
                     <p>
                     <FormControl>
                     <RadioGroup
@@ -195,19 +195,19 @@ function Survei(){
                     <FormControlLabel
                         value="baik"
                         control={<Radio />}
-                        label="Baik"
+                        label="Sudah Baik"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="cukupbaik"
                         control={<Radio />}
-                        label="Cukup Baik"
+                        label="Cukup Baikk"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="tidakbaik"
                         control={<Radio />}
-                        label="Buruk"
+                        label="Tidak Baik"
                         labelPlacement="top"
                     />
                     </RadioGroup>
@@ -219,10 +219,10 @@ function Survei(){
                     <Divider />
                 </Grid>
                 <div className="survei-form">
-                <Grid item xs={12} sm={6} sx={{zIndex: 0, marginRight: 10}}>
+                <Grid item xs={12} sm={7} sx={{zIndex: 0, marginRight: 10}}>
                     <p>3. Bagaimana tingkat kepuasan anda terkait kemudahan dalam hal tata cara atau prosedur pelayanan, kepastian pelayanan dan aspek keterbukaan (transparansi) di Dinas Kesehatan Sulawesi Selatan ?</p>
                 </Grid>
-                <Grid item xs={12} sm={6} sx={{zIndex: 0,}}>
+                <Grid item xs={12} sm={5} sx={{zIndex: 0,}}>
                     <p>
                     <FormControl>
                     <RadioGroup
@@ -240,19 +240,19 @@ function Survei(){
                     <FormControlLabel
                         value="baik"
                         control={<Radio />}
-                        label="Baik"
+                        label="Sudah Baik"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="cukupbaik"
                         control={<Radio />}
-                        label="Cukup Baik"
+                        label="Cukup Baikk"
                         labelPlacement="top"
                     />
                     <FormControlLabel
                         value="tidakbaik"
                         control={<Radio />}
-                        label="Buruk"
+                        label="Tidak Baik"
                         labelPlacement="top"
                     />
                     </RadioGroup>
