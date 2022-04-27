@@ -12,6 +12,7 @@ import GalleryVideo from './Page/componentGalerydanVideo/GalleryVideo';
 import Peraturanpemerintah from './Page/componentRegulasi/Peraturanpemerintah';
 import Peraturan2 from './Page/componentRegulasi/Peraturan2';
 import Survei from './Page/Survei';
+import CalendarEvent from './Page/CalendarEvent';
 import './responsive.css';
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Peraturanpemerintah" element={<Peraturanpemerintah />} />
           <Route path="/Peraturan2" element={<Peraturan2 />} />
           <Route path="/Survei" element={<Survei />} />
+          <Route path="/CalendarEvent" element={<CalendarEvent />} />
         </Routes>
       <Footer />
     </Router>
